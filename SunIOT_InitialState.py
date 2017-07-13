@@ -17,8 +17,10 @@ InitialState_Bucket_Name = "SunIOT_InitialState"
 InitialState_Bucket_Key = "XXXXXXXXXXXX"
 InitialState_Access_Key = "YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
  
-streamer = Streamer(bucket_name= InitalState_Bucket_Name bucket_key=InitialState_Bucket_Key, access_key=InitialState_Access_Key)
 
+streamer = Streamer(bucket_name = InitialState_Bucket_Name, bucket_key = InitialState_Bucket_Key, access_key = InitialState_Access_Key)
+
+Read more: http://forum.switchdoc.com/thread/294/suniot-start-error#ixzz4mkuN4vdW
 import RPi.GPIO as GPIO
 
 
